@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main()
+{
+int i,j,sayi;
+printf("bir sayi giriniz:\n");
+scanf("%d",&sayi);
+//üçgen ters üçgen yazılımı
+for(i=1;i<=sayi;i++){
+for(j=1;j<=i;j++){
+printf("*");
+}
+printf("\n");
+}
+printf("\n");
+for(i=1;i<=sayi;i++){
+for(j=sayi;j>=i;j--){
+printf("*");
+}
+printf("\n");
+}
+return 0;
+}
+//bitiş
